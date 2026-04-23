@@ -11,6 +11,7 @@ export class GetUsersController implements IGetUsersController {
         status_code: 200,
         body: users,
       };
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
     } catch (e) {
       return {
         status_code: 500,
